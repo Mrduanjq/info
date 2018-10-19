@@ -1,0 +1,132 @@
+.charge-container{
+  width: 7.5rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.charge-money-box,.charge-bank-box{
+  width: 100%;
+  padding: 0.3rem;
+}
+.charge-title{
+  color: #999;
+  padding-bottom: 0.3rem;
+}
+.charge-money{
+  padding: 0.3rem 0;
+}
+.charge-money span{
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+.charge-money input{
+  display: inline-block;
+  font-size: 0.28rem;
+  width: 80%;
+}
+.charge-bank-box{
+  border-top: 0.16rem solid #f5f5f5;
+}
+.charge-select{
+  display: inline-block;
+  width: 78%;
+  padding: 0.15rem;
+  border-radius: 0.1rem;
+  border: 1px solid #e6e6e6;
+}
+.charge-list{
+  width: 80%;
+  padding: 0.3rem 0;
+  font-size: 0.26rem;
+  border-top: 1px solid #e6e6e6;
+}
+.charge-name{
+  display: inline-block;
+  width: 20%;
+}
+.charge-list img{
+  display: inline-block;
+  width: 0.58rem;
+  height: 0.58rem;
+  vertical-align: middle;
+  margin-right: 0.2rem;
+}
+.charge-list i{
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../images/select_01.png) no-repeat;
+  background-size: 100% 100%;
+}
+.charge-list-active i{
+  background: url(../images/select_02.png) no-repeat;
+  background-size: 100% 100%;
+}
+.charge-btn{
+  width: 7.1rem;
+  margin: 0 auto;
+  padding: 0.2rem;
+  text-align: center;
+  background-color: #e4007f;
+  border-radius: 0.1rem;
+  color: #fff;
+  margin-top: 1.2rem;
+}
+.scan-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scan-content {
+  width: 80%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  background-color: #fff;
+}
+
+.scan-title {
+  padding: 0.2rem 0;
+  text-align: center;
+  border-bottom: 1px solid #d0d0d0;
+  font-weight: bold;
+}
+
+.scan-img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem auto;
+  position: relative;
+}
+
+.scan-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.scan-img canvas {
+  width: 3rem !important;
+  height: 3rem !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.scan-btn {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  background-color: #2582f5;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 0.5rem;
+}

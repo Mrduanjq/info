@@ -1,0 +1,33 @@
+*{
+  -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+  touch-callout:none;
+  -webkit-user-select:none; /*webkit浏览器*/
+  -khtml-user-select:none; /*早期浏览器*/
+  -moz-user-select:none;/*火狐*/
+  -ms-user-select:none; /*IE10*/
+  user-select:none;
+}
+
+.nav{
+  background: #e0e0e0;
+  padding: 0.1rem 0.2rem;
+  color: #003391;
+  font-weight: 700;
+  font-size: 0.32rem;
+}
+
+.home-list{
+  padding: 0 0.2rem;
+}
+.home-list a{
+  display: block;
+  text-decoration: none;
+  text-align: right;
+}
+.home-list h3{
+  padding: 0.1rem 0;
+}
+.home-list p{
+  padding: 00.1rem 0;
+  text-indent: 0.2rem;
+}

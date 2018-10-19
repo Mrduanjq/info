@@ -1,0 +1,207 @@
+*{
+  -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+  touch-callout:none;
+  -webkit-user-select:none; /*webkit浏览器*/
+  -khtml-user-select:none; /*早期浏览器*/
+  -moz-user-select:none;/*火狐*/
+  -ms-user-select:none; /*IE10*/
+  user-select:none;
+}
+.detail-container{
+  width: 7.5rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.detail-lb-box{
+  width: 100%;
+  background-color: #fff;
+}
+.detail-lb-img{
+  width: 100%;
+  height: 7.5rem;
+}
+.detail-lb-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.detail-lb-title{
+  width: 100%;
+  line-height: 0.46rem;
+  padding: 0 0.3rem 0.1rem 0.3rem;
+  font-size: 0.3rem;
+}
+.title-icon{
+  display: inline-block;
+  margin-right: 0.1rem;
+  width: 0.64rem;
+  height: 0.32rem;
+  background: url(../images/detail_hot.png) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: -0.01rem;
+}
+.detail-list{
+  padding: 0 0.3rem;
+  border-bottom: 0.08rem solid #f5f5f5;
+  background-color: #fff;
+}
+.detail-price{
+  font-size: 0.32rem;
+  width: 100%;
+  color: #f90630;
+}
+.detail-price span{
+  font-size: 0.4rem;
+}
+.detail-price-dis{
+  font-size: 0.24rem;
+  color: #999;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.detail-img{
+  display: block;
+  width: 100%;
+  height: 4rem;
+  margin: 0.1rem 0;
+}
+.detail-text{
+  font-size: 0.2rem;
+  color: #999;
+}
+.detail-list-dl{
+  margin-bottom: 1.4rem;
+  border-bottom: none;
+}
+.detail-list-dl img{
+  display: block;
+  width: 100%;
+}
+.detail-list-title{
+  padding: 0.3rem;
+  text-align: center;
+  font-size: 0.26rem;
+  color: #999;
+  background-color: #fff;
+}
+.detail-msg{
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.24rem;
+  color: #999;
+  text-align: center;
+}
+.detail-list-line{
+  display: inline-block;
+  width: calc((100% - 2rem) / 2);
+  border-top: 1px solid #e0e0e0;
+  margin-top: 0.2rem;
+}
+.detail-footer{
+  position: fixed;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #fff;
+  width: 7.1rem;
+  height: 1.04rem;
+  padding: 0.12rem 0.3rem;
+  border-top: 1px solid #e6e6e6;
+  border-radius: 0.1rem;
+}
+.detail-footer span, .detail-footer i{
+  display: inline-block;
+}
+.detail-sc,.detail-sc-yt{
+  display: inline-block;
+  width: 0.8rem;  
+}
+.detail-footer .detail-sc-yt{
+  color: #ff75af;
+}
+.detail-sc i{
+  width: 0.44rem;
+  height: 0.4rem;
+  background: url(../images/sc.png) no-repeat;
+  background-size: 100% 100%;
+}
+.detail-sc-yt i{
+  display: block;
+  width: 0.44rem;
+  height: 0.4rem;
+  background: url(../images/sc_yt.png) no-repeat;
+  background-size: 100% 100%;
+  animation: scaleSc 0.5s;
+}
+
+@keyframes scaleSc{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.detail-car, .detail-car-in{
+  position: relative;
+  width: 0.8rem;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+.detail-car i{
+  display: block;
+  margin-left: 0.2rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  background: url(../images/car.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.detail-footer .detail-btn{
+  margin-top: 0.08rem;
+  width: 2.48rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.3rem;
+  background-color: #e4007f;
+  background: -o-linear-gradient(left, #ff63b1 0%,#ff257b 100%);
+  background: -ms-linear-gradient(left, #ff63b1 0%,#ff257b 100%);
+  background: linear-gradient(to right, #ff63b1 0%,#ff257b 100%);
+}
+.detail-footer-text{
+  font-size: 0.2rem;
+  color: #999;
+}
+.detail-footer .detail-footer-text{
+  display: block;
+}
+
+.swiper-pagination-fraction{
+  width: auto;
+  left: auto;
+  right: 0.3rem;
+  border-radius: 0.3rem;
+  width: 0.72rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+}
+.back{
+  position: fixed;
+  top: 0.2rem;
+  left: 0.3rem;
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 50%;
+  z-index: 10;
+  background: url(../images/back.png) no-repeat;
+  background-size: 100% 100%;
+}

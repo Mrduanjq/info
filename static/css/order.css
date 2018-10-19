@@ -1,0 +1,202 @@
+a{color: #333;}
+/*导航功能*/
+.my-form-nav{
+  position: fixed;
+  top:0.88rem;
+  left:0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 1.02rem;
+  line-height: 1.02rem;
+  background: #fff;
+  border-bottom: 0.01rem solid #e6e6e6;
+  z-index: 2;
+
+}
+.my-form-nav li{
+  border-bottom: 0.03rem solid transparent;
+  font-size: 0.28rem;
+  color:#333;
+  width: 1rem;
+  text-align: center;
+}
+.my-form-nav li.on{
+  color: #e4007f;
+  border-color:#e4007f;
+}
+.my-form-nav li.on a{
+	color: #e4007f;
+}
+/*我喜欢的*/
+.goods-wrapper ul{
+  margin-top: 0.2rem;
+}
+.goods-wrapper ul li{
+  margin-bottom: 0.2rem;
+  background: #fff;
+}
+.goods-wrapper ul li>h3{
+  height: 0.64rem;
+  padding: 0 0.3rem;
+  font-size: 0.24rem;
+  color:#999;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+.goods-wrapper ul li>h3>span{
+  margin-right: 0.15rem;
+}
+.goods-wrapper ul li>a{
+  padding:0.3rem 0.2rem;
+  display: flex;
+  width: 100%;
+  height: 2.6rem;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+.goods-wrapper ul div{
+  flex-grow:1;
+}
+.goods-wrapper ul .goods-item-left{
+  min-width:2rem;
+  max-width:2rem;
+  width:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goods-wrapper ul .goods-item-left>img{
+  max-width: 100%;
+  width:100%;
+}
+.goods-wrapper ul .goods-item-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left:0.2rem;
+  width:1.9202rem;
+}
+.goods-wrapper ul .goods-item-right>span{
+  color:#999;
+  font-size: 0.24rem;
+  margin-top:0.14rem;
+  margin-bottom: 0.14rem;
+}
+.goods-wrapper .goods-item-right h3{
+  height:auto;
+  font-size: 0.28rem;
+  font-weight:500;
+  color:#333;
+}
+.goods-wrapper .goods-item-right .goods-item-right-info{
+  font-size:0.24rem;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:#999;
+}
+.goods-wrapper .goods-item-right em{
+  color:#333;
+  font-size:0.28rem;
+}
+.goods-wrapper .goods-item-right .goods-item-right-address{
+  font-size: 0.24rem;
+  color:#999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 0.5rem;
+}
+
+.goods-wrapper .goods-item-total{
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+.goods-item-total>.goods-item-total-right{
+  width: 1.4rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.1rem;
+  border: 0.02rem solid transparent;
+}
+
+.goods-wrapper .goods-item-right-address span strong{
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.32rem;
+  height:0.32rem;
+  background: url('../images/index/ico-like@2x.png') center center no-repeat;
+  background-size: 0.32rem 0.32rem;
+}
+.goods-wrapper .goods-item-right-address .icon-it{
+  padding-left:0.45rem;
+  background: url('../images/country/icon-it@2x.png') left center no-repeat;
+  background-size:0.4rem 0.28rem;
+}
+
+.goods-wrapper .goods-price{
+  padding: 0 0.2rem;
+  width:100%;
+  height:0.96rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.96rem;
+  font-size: 0.24rem;
+  color:#333;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+
+.goods-wrapper .goods-price>span>em{
+  font-size:0.36rem;
+  color: #f8285c;
+}
+
+.goods-wrapper .payForm{
+  padding:0 0.2rem;
+  height: 1.32rem;
+  width: 100%;
+  font-size: 0.28rem;
+  color:#333;
+  text-align: right;
+  line-height: 1.32rem;
+}
+.goods-wrapper .payForm>span{
+  width:1.52rem;
+  height:0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border:0.01rem solid #ccc;
+  background: #fff;
+  margin-right: 0.3rem;
+}
+.goods-wrapper .payForm>a{
+  width:1.52rem;
+  height:0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f8285c;
+  color: #fff;
+}
+.none{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  background-color: transparent !important;
+}
+.none>img{
+  width: 3rem;
+}

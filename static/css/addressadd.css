@@ -1,0 +1,72 @@
+a{color: #333;}
+.address-items-wrapper{
+  margin-top: 0.2rem;
+  color: #333;
+}
+.address-items-wrapper>.address-items{
+  width: 100%;
+  height: 2.15rem;
+  background-color: #fff;
+  padding: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+.address-items>.address-items-top{
+  margin-bottom: 0.3rem;
+  font-size: 0.3rem;
+}
+.address-items>.address-items-top>span{
+  margin-right: 0.3rem;
+}
+.address-items>.address-items-center{
+  font-size: 0.24rem;
+  margin-bottom: 0.2rem;
+}
+.address-items>.address-items-bottom{
+  font-size: 0.24rem;
+  display: flex;
+  justify-content: space-between;
+}
+.address-items-bottom>.address-items-bottom-left{
+  height: 0.3rem;
+  line-height: 0.3rem;
+  padding-left: 0.4rem;
+  background: url(../images/icon_success_gray.png) left center no-repeat;
+  background-size: 0.24rem 0.24rem;
+  color: #666;
+}
+.address-items-bottom>.address-items-bottom-left.on{
+  background: url(../images/icon_success_red.png) left center no-repeat;
+  background-size: 0.24rem 0.24rem;
+}
+.address-items-bottom>.address-items-bottom-right{
+  width: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.address-items-bottom>.address-items-bottom-right>.edit{
+  padding-left: 0.35rem;
+  background: url(../images/icon_edit.png) left center no-repeat;
+  background-size: 0.25rem auto;
+}
+.address-items-bottom>.address-items-bottom-right>.delete{
+  padding-left: 0.35rem;
+  background: url(../images/icon_delete.png) left center no-repeat;
+  background-size: 0.25rem auto;
+}
+.add-address-new{
+  position: fixed;
+  bottom: 0.1rem;
+  left: 0;
+  width:100%;
+  padding: 0 0.2rem;
+  height: 0.72rem;
+}
+.add-address-new>a{
+  display: block;
+  height: 100%;
+  color: #fff;
+  border-radius: 0.1rem;
+  line-height: 0.72rem;
+  text-align: center;
+  font-size: 0.34rem;
+}

@@ -1,0 +1,36 @@
+html,body {
+  height: 100%;
+}
+
+#loader-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #fff;
+  z-index: 20;
+}
+
+#loader-container{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -1.35rem;
+  width: 2.7rem;
+  height: 2.4rem;
+}
+#loader-container img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@keyframes bgColor{
+  form{
+    opacity: 1
+  }
+  to{
+    opacity: 0
+  }
+}

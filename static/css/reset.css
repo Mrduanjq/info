@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+html, body, div, h1, h2, h3, h4, h5, ul, ol, li, p, input, button {
+  -webkit-touch-callout: auto;
+  /*系统默认菜单被禁用*/
+  -webkit-user-select: auto;
+  /*webkit浏览器*/
+  -khtml-user-select: auto;
+  /*早期浏览器*/
+  -moz-user-select: auto;
+  /*火狐*/
+  -ms-user-select: auto;
+  /*IE10*/
+  user-select: auto;
+}
+
+body {
+  font-family: "Microsoft YaHei";
+  background: #f5f5f5;
+  font-size: 0.28rem;
+}
+
+/*body,html{height:100%;}*/
+
+i, em, strong {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.28rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearFixed {}
+
+.clearFixed:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  width: 0;
+}
+
+/*字体颜色*/
+
+.gray {
+  color: #999 !important;
+}
+
+.gray-light {
+  color: #666 !important;
+}
+
+.pink {
+  color: #e4007f !important;
+}
+
+.blue {
+  color: #5496e3 !important;
+}
+
+.btn-red {
+  color: #e40000 !important;
+}
+
+.btn-green {
+  color: #0db10d !important;
+}
+
+/*背景色*/
+
+.red {
+  background-color: #e40000 !important;
+}
+
+.green {
+  background-color: #0db10d !important;
+}
+
+.pink-bg {
+  background-color: #e4007f !important;
+}
+
+.gray-bg {
+  background-color: #c5c2c3 !important;
+}
+
+.gray-shallow {
+  background-color: #e5e5e5 !important;
+}
+
+.btn-red-bg {
+  background-color: #e40000;
+}
+
+.btn-green-bg {
+  background-color: #0db10d;
+}
+
+/*边框色*/
+
+.border-pink {
+  border: 1px solid #e4007f !important;
+}
+
+/*插件色*/
+
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FC62B7 !important;
+  background-color: #E4007F !important;
+}

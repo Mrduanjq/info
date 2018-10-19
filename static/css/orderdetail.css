@@ -1,0 +1,217 @@
+a{color: #333;}
+#wrapper{
+  padding-bottom: 0.75rem;
+}
+.order-detail-status{
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  color: #ea2d94;
+}
+.order-detail-status-success{
+  background: #cccccc;
+}
+.order-detail-status-other{
+  background: #ffa2d6;  
+}
+
+/*收货地址*/
+.order-detail-address{
+  width: 100%;
+  height: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0.7rem;
+  border-left: 0.3rem solid transparent;
+  border-right: 0.1rem solid transparent;
+  background: url(../images/icon_map.png) left center no-repeat;
+  background-size: 0.4rem auto;
+  background-color: #fff;
+  font-size: 0.28rem;
+  /*margin-top: 0.2rem;*/
+}
+.order-detail-address.payment{
+  background: url(../images/icon_map.png) left center no-repeat, url(../images/icon_forward.png) right center no-repeat;
+  background-size: 0.4rem auto, 0.4rem auto;
+  background-color: #fff;
+}
+.order-detail-address>.order-detail-address-top{
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+}
+.order-detail-address>.order-detail-address-bottom{
+  font-size: 0.24rem;
+  margin-bottom: 0.2rem;
+}
+
+/*商品*/
+.goods-wrapper{
+  margin-top: 0.2rem;
+  width: 100%;
+  height: auto;
+}
+.goods-wrapper>.goods-items{
+  width: 100%;
+  display: flex;
+  background: #fff;
+  padding: 0.1rem 0.3rem;
+  margin-bottom: 0.2rem;
+}
+.goods-wrapper>.goods-items>.goods-items-left{
+  width: 1.6rem;
+  min-width: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goods-wrapper>.goods-items>.goods-items-left>img{
+  background: hotpink;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.goods-wrapper>.goods-items>.goods-items-right{
+  flex-grow: 1;
+  padding-left: 0.3rem;
+  position: relative;
+}
+.goods-wrapper>.goods-items>.goods-items-right>.goods-items-title{
+  margin-top: 0.2rem;
+  font-size: 0.28rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.goods-wrapper>.goods-items>.goods-items-right>.goods-items-country{
+  font-size: 0.24rem;
+  margin-top: 0.1rem;
+}
+.goods-wrapper>.goods-items>.goods-items-right>.goods-items-price{
+  margin-top: 0.1rem;
+  font-size: 0.28rem;
+  display: flex;
+  justify-content: space-between;
+}
+.goods-items-right>.modify{
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0;
+  width: 1.54rem;
+  height: 0.48rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+.goods-items-right>.modify>.sub{
+  width: 0.48rem;
+  min-width: 0.48rem;
+  height: 0.48rem;
+  display: flex;
+}
+.goods-items-right>.modify>.sub>em{
+  border-radius: 50%;
+  border: 1px solid #eee;
+  width: 100%;
+  height: 100%;
+  line-height: 0.48rem;
+  text-align: center;
+}
+.goods-items-right>.modify>.num{
+  font-size: 0.3rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+}
+.goods-items-right>.modify>.add{
+  display: flex;
+  width: 0.48rem;
+  min-width: 0.48rem;
+  height: 0.48rem;
+}
+.goods-items-right>.modify>.add>em{
+  width: 100%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  background-color: #E3007F;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+/*商品详单*/
+.detail-price{
+  background: #fff;
+  padding: 0 0.2rem;
+}
+.detail-price>.detail-price-items{
+  height: 0.96rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 0 0.1rem;
+}
+.order-detail-detail{
+  font-size: 0.24rem;
+  margin-top: 0.2rem;
+  padding: 0 0.3rem;
+}
+.order-detail-detail>p{
+  margin-bottom: 0.2rem;
+}
+
+/*按钮*/
+.order-detail-btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.1rem 0.4rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.order-detail-btn>a{
+  width: 3rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  z-index: 2;
+}
+
+/*结算页*/
+.go-payment-wrapper{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.98rem;
+}
+.go-payment{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.98rem;
+  padding-left: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.go-payment>.go-payment-left>em{
+  font-weight: 700;
+  margin-right: 0.2rem;
+}
+.go-payment>.go-payment-right{
+  text-align: center;
+  color: #fff;
+  width: 2rem;
+  height: 100%;
+  line-height: 0.98rem;
+}
